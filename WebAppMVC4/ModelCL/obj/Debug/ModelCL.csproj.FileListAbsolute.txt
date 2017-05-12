@@ -1,0 +1,10 @@
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\bin\Debug\ModelCL.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\bin\Debug\ModelCL.pdb
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\obj\Debug\ModelCL.csprojResolveAssemblyReference.cache
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\obj\Debug\ModelCL.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\obj\Debug\ModelCL.pdb
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\bin\Debug\ModelCL.dll.config
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\bin\Debug\EntityFramework.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\bin\Debug\EntityFramework.xml
+C:\Users\jupemen\Documents\GitHub\VisualStudio\WebAppMVC4\ModelCL\bin\Debug\EntityFramework.SqlServer.xml

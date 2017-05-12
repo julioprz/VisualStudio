@@ -1,0 +1,29 @@
+﻿
+@model WebAppMVC3.Models.Demo
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h2>Esto es una vista sin modelo!</h2>
+    </div>
+    <div>
+        @Model.Message
+    </div>
+    <div>
+        @Model.MessageHTML
+    </div>
+    <div>
+        @Html.Raw(Model.MessageHTML) @*lee el formato que se le pase*@
+    </div>
+</body>
+</html>

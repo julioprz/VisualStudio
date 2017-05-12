@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="InterviewProjectModelStoreContainer" CdmEntityContainer="InterviewProjectEntities1">
+    <EntitySetMapping Name="MainPageContents">
+      <EntityTypeMapping TypeName="InterviewProjectModel.MainPageContent">
+        <MappingFragment StoreEntitySet="MainPageContent">
+          <ScalarProperty Name="pkMainPageContent" ColumnName="pkMainPageContent" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="sStory" ColumnName="sStory" />
+          <ScalarProperty Name="dtCreated" ColumnName="dtCreated" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stories">
+      <EntityTypeMapping TypeName="InterviewProjectModel.Story">
+        <MappingFragment StoreEntitySet="Stories">
+          <ScalarProperty Name="pkStories" ColumnName="pkStories" />
+          <ScalarProperty Name="sStoryTitle" ColumnName="sStoryTitle" />
+          <ScalarProperty Name="sStorySummary" ColumnName="sStorySummary" />
+          <ScalarProperty Name="dtPublished" ColumnName="dtPublished" />
+          <ScalarProperty Name="dtCreated" ColumnName="dtCreated" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StoryPageContents">
+      <EntityTypeMapping TypeName="InterviewProjectModel.StoryPageContent">
+        <MappingFragment StoreEntitySet="StoryPageContent">
+          <ScalarProperty Name="pkStoryPageContent" ColumnName="pkStoryPageContent" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="dtCreated" ColumnName="dtCreated" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="DeleteMainPageContent" FunctionName="InterviewProjectModel.Store.DeleteMainPageContent" />
+    <FunctionImportMapping FunctionImportName="GetMainPageContent" FunctionName="InterviewProjectModel.Store.GetMainPageContent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InterviewProjectModel.GetMainPageContent_Result">
+          <ScalarProperty Name="pkMainPageContent" ColumnName="pkMainPageContent" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="sStory" ColumnName="sStory" />
+          <ScalarProperty Name="dtCreated" ColumnName="dtCreated" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SaveMainPageContent" FunctionName="InterviewProjectModel.Store.SaveMainPageContent" />
+  </EntityContainerMapping>
+</Mapping>

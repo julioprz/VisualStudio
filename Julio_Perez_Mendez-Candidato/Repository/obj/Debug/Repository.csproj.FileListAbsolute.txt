@@ -1,0 +1,5 @@
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Repository\bin\Debug\Repository.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Repository\bin\Debug\Repository.pdb
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Repository\obj\Debug\Repository.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Repository\obj\Debug\Repository.pdb
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache

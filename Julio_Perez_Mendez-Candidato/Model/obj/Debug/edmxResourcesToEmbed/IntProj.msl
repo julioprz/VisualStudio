@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="InterviewProjectModel1StoreContainer" CdmEntityContainer="InterviewProjectEntities">
+    <FunctionImportMapping FunctionImportName="DeleteMainPageContent" FunctionName="InterviewProjectModel1.Store.DeleteMainPageContent" />
+    <FunctionImportMapping FunctionImportName="GetMainPageContent" FunctionName="InterviewProjectModel1.Store.GetMainPageContent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InterviewProjectModel1.GetMainPageContent_Result">
+          <ScalarProperty Name="pkMainPageContent" ColumnName="pkMainPageContent" />
+          <ScalarProperty Name="sTitle" ColumnName="sTitle" />
+          <ScalarProperty Name="sStory" ColumnName="sStory" />
+          <ScalarProperty Name="dtCreated" ColumnName="dtCreated" />
+          <ScalarProperty Name="dtUpdated" ColumnName="dtUpdated" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SaveMainPageContent" FunctionName="InterviewProjectModel1.Store.SaveMainPageContent" />
+    <FunctionImportMapping FunctionImportName="SaveMainPageCR" FunctionName="InterviewProjectModel1.Store.SaveMainPageContent">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="InterviewProjectModel1.SaveMainPageContent_Result">
+          <ScalarProperty Name="pkMainPageContent" ColumnName="pkMainPageContent" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

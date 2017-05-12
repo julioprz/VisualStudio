@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InterviewProjectModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MainPageContent">
+    <Key>
+      <PropertyRef Name="pkMainPageContent" />
+    </Key>
+    <Property Name="pkMainPageContent" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sTitle" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="sStory" Type="text" Nullable="false" />
+    <Property Name="dtCreated" Type="datetime" Nullable="false" />
+    <Property Name="dtUpdated" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Stories">
+    <Key>
+      <PropertyRef Name="pkStories" />
+    </Key>
+    <Property Name="pkStories" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sStoryTitle" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="sStorySummary" Type="text" Nullable="false" />
+    <Property Name="dtPublished" Type="datetime" Nullable="false" />
+    <Property Name="dtCreated" Type="datetime" Nullable="false" />
+    <Property Name="dtUpdated" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StoryPageContent">
+    <Key>
+      <PropertyRef Name="pkStoryPageContent" />
+    </Key>
+    <Property Name="pkStoryPageContent" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sTitle" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="dtCreated" Type="datetime" Nullable="false" />
+    <Property Name="dtUpdated" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Function Name="DeleteMainPageContent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pkMainPageContent" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetMainPageContent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SaveMainPageContent" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pkMainPageContent" Type="int" Mode="In" />
+    <Parameter Name="sTitle" Type="varchar" Mode="In" />
+    <Parameter Name="sStory" Type="text" Mode="In" />
+  </Function>
+  <EntityContainer Name="InterviewProjectModelStoreContainer">
+    <EntitySet Name="MainPageContent" EntityType="Self.MainPageContent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Stories" EntityType="Self.Stories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StoryPageContent" EntityType="Self.StoryPageContent" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

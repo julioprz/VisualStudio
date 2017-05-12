@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="InterviewProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="MainPageContent">
+    <Key>
+      <PropertyRef Name="pkMainPageContent" />
+    </Key>
+    <Property Name="pkMainPageContent" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sTitle" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sStory" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dtCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Story">
+    <Key>
+      <PropertyRef Name="pkStories" />
+    </Key>
+    <Property Name="pkStories" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sStoryTitle" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sStorySummary" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dtPublished" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dtCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="StoryPageContent">
+    <Key>
+      <PropertyRef Name="pkStoryPageContent" />
+    </Key>
+    <Property Name="pkStoryPageContent" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sTitle" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dtCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="dtUpdated" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="InterviewProjectEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="MainPageContents" EntityType="Self.MainPageContent" />
+    <EntitySet Name="Stories" EntityType="Self.Story" />
+    <EntitySet Name="StoryPageContents" EntityType="Self.StoryPageContent" />
+    <FunctionImport Name="DeleteMainPageContent">
+      <Parameter Name="pkMainPageContent" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GetMainPageContent" ReturnType="Collection(InterviewProjectModel.GetMainPageContent_Result)" />
+    <FunctionImport Name="SaveMainPageContent" ReturnType="Collection(Int32)">
+      <Parameter Name="pkMainPageContent" Mode="In" Type="Int32" />
+      <Parameter Name="sTitle" Mode="In" Type="String" />
+      <Parameter Name="sStory" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetMainPageContent_Result">
+    <Property Type="Int32" Name="pkMainPageContent" Nullable="false" />
+    <Property Type="String" Name="sTitle" Nullable="false" MaxLength="500" />
+    <Property Type="String" Name="sStory" Nullable="false" MaxLength="Max" />
+    <Property Type="DateTime" Name="dtCreated" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="dtUpdated" Nullable="false" Precision="23" />
+  </ComplexType>
+</Schema>

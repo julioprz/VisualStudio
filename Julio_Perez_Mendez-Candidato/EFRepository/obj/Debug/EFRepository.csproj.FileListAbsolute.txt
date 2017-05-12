@@ -1,0 +1,12 @@
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\bin\Debug\EFRepository.dll.config
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\bin\Debug\EFRepository.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\bin\Debug\EFRepository.pdb
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\bin\Debug\EntityFramework.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\bin\Debug\Repository.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\bin\Debug\Repository.pdb
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\bin\Debug\EntityFramework.xml
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\obj\Debug\EFRepository.csprojResolveAssemblyReference.cache
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\obj\Debug\EFRepository.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\EFRepository\obj\Debug\EFRepository.pdb

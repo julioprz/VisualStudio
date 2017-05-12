@@ -1,0 +1,14 @@
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\Model.dll.config
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\Model.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\Model.pdb
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\EFRepository.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\EntityFramework.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\Repository.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\EFRepository.pdb
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\Repository.pdb
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\EntityFramework.xml
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\obj\Debug\Model.dll
+C:\Users\jupemen\Documents\GitHub\VisualStudio\Julio_Perez_Mendez-Candidato\Model\obj\Debug\Model.pdb
